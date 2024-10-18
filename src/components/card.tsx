@@ -6,10 +6,11 @@ interface Props {
 
 const Card = ({ title, description, image }: Props) => {
     return (
-        <div className="max-w-sm bg-white shadow-xl rounded-lg overflow-hidden text-center mt-10 mb-10"
+        <div 
+            className="max-w-sm bg-white shadow-xl rounded-lg overflow-hidden text-center mt-10 mb-10 transform transition-transform duration-300 hover:scale-105"
         >
             <img
-                className="w-24 h-24 object-cover mx-auto mt-4" 
+                className="w-24 h-24 object-cover mx-auto mt-4"
                 src={image}
                 alt={title}
             />
