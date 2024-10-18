@@ -2,7 +2,7 @@ import sustentable from '../assets/images/Earth care.png';
 
 const Sustentability = () => {
     return (
-        <section className='flex flex-col items-center justify-center bg-[#ffffff] mb-20'>
+        <section id='sustentability' className='flex flex-col items-center justify-center bg-[#ffffff] mb-20'>
             <h2 className='text-black text-4xl font-semibold mt-10 mb-10'>Como somos sustentáveis</h2>
             <article className='flex flex-row items-center justify-center w-full'>
                 <p className='text-balance mx-10 leading-6 text-lg'>
